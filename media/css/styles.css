@@ -1,0 +1,186 @@
+/*
+Name: RMA Project
+Created: August 2012
+Last update: November 2012
+Description: Based on layout provided through Smashing Magazine
+Version: 1.0
+Author: Rodrigo Araujo
+Autor URI: pending
+*/
+
+/***** Global *****/
+
+html{
+    height: 100%;
+    overflow: auto;
+}
+/* Body */
+body {
+    clear: both;
+    background: #FAFAFA;
+    color: #444;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 600px;
+    font-size: 16px; /* Base font size: 14px */
+    font-family: 'OFL Sorts Mill Goudy';
+    line-height: 1.5;
+    margin: 0 auto;
+    text-align: left;
+    border-top: solid #F3E508 4px;
+}
+
+/* Headings */
+h1 {
+    font-size: 5.0em;
+    line-height: 1.0em;
+    font-family: 'RalewayThin';
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.4);
+    text-align: center;
+}
+h2 {
+    font-size: 2.0em; /* 22px */
+    font-family: 'Linden Hill';
+    text-shadow: 1px 1px 2px rgba(50, 50, 50, 0.4);
+    text-align: center;
+}
+h3 {
+    font-size: 1.429em; /* 20px */
+    font-family: 'Linden Hill';
+    text-align: center;
+}
+h4 {font-size: 1.286em;}  /* 18px */
+h5 {font-size: 1.143em;}  /* 16px */
+h6 {font-size: 1em;}  /* 14px */
+
+h3, h4, h5, h6 {
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: .8em;
+}
+
+/* Anchors */
+a img {
+    border: 0;
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: #777;
+    padding: 0 1px;
+    text-decoration: none;
+    border-bottom: solid #F3E508 1px;
+}
+a:hover, a:active {
+    color: #DCB904;
+    text-decoration: none;
+    border-bottom: none;
+    /*background: #F3E508;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px rgba(50, 50, 50, 0.4);*/
+}
+
+/* Paragraphs */
+p {margin-bottom: 1.143em;}
+* p:last-child {margin-bottom: 0;}
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+::-moz-selection {background: #F3E508; color: #fff;}
+::selection {background: #F3E508; color: #fff;}
+
+/* Lists */
+ul {
+    list-style: outside disc;
+    margin: 1em 0 1.5em 1.5em;
+}
+ol {
+    list-style: outside decimal;
+    margin: 1em 0 1.5em 1.5em;
+}
+dl {margin: 0 0 1.5em 0;}
+dt {font-weight: bold;}
+dd {margin-left: 1.5em;}
+
+/* Quotes */
+blockquote {font-style: italic;}
+cite {}
+q {}
+
+/* Tables */
+table {
+    margin: .5em auto 1.5em auto;
+    width: 98%;
+}
+
+/* Thead */
+thead th {
+    padding: .5em .4em;
+    text-align: left;
+}
+thead td {}
+
+/* Tbody */
+tbody td {padding: .5em .4em;}
+tbody th {}
+tbody .alt td {}
+tbody .alt th {}
+
+/* Tfoot */
+tfoot th {}
+tfoot td {}
+
+/* Header */
+header {
+    margin: 20px auto 10px;
+}
+header a:link, header a:visited,
+header a:hover, header a:active{
+    color: #F3E508;
+    background: none;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.4);
+    border: none;
+}
+
+/* Nav */
+nav {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+nav ul {
+    height: 100%;
+    width: 40%;
+    margin: 0 auto;
+    list-style: none;
+    display: block;
+}
+nav ul li{
+    width: 33.3%;
+    float: left;
+    display: block;
+    text-align: center;
+    font: 1.2em 'Linden Hill';
+    margin: 0;
+}
+.emphasis{
+    color: #DCB904;
+}
+
+#content{
+    margin-bottom: 100px;
+}
+/* Foooter */
+footer {
+    position: absolute;
+    width: 600px;
+    height: 50px;
+    bottom: 0;
+    background: #333;
+}
+
+.brief {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 3.0em;
+}
