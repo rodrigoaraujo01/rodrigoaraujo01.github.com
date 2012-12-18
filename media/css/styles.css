@@ -170,6 +170,7 @@ nav ul li{
 #content{
     margin-bottom: 100px;
 }
+
 /* Foooter */
 footer {
     position: absolute;
@@ -177,6 +178,28 @@ footer {
     height: 50px;
     bottom: 0;
     background: #333;
+}
+
+footer a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer a:link, footer a:visited {
+    color: #222;
+    text-shadow: 1px 1px 1px #444;
+    border: none;
+    margin-top: 10px;
+}
+
+footer a:hover, footer a:active {
+    color: #000;
+}
+
+.icon{
+    font-family: "icomoon";
+    /* content: attr(data-icon); */
 }
 
 .brief {
