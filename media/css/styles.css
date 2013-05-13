@@ -207,3 +207,40 @@ footer a:hover, footer a:active {
     font-style: italic;
     margin-bottom: 3.0em;
 }
+
+figure {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  float:left;
+  width: 144px;
+  height: 144px;
+  margin: 3px;
+}
+figcaption {
+  position: absolute;
+  background: rgba(0,0,0,0.75);
+  color: white;
+  width: 144px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 0.7em;
+  font-family: 'RalewayThin';
+
+  opacity: 0;
+  bottom: -30%;
+  left: 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition:    all 0.4s ease;
+  -o-transition:      all 0.4s ease;
+}
+
+figure:hover figcaption {
+  opacity: 1;
+  bottom: 0;
+}
+
+.small-picture{
+    width:144px;
+}
