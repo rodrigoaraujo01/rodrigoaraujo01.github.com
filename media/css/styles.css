@@ -61,6 +61,12 @@ h3, h4, h5, h6 {
     margin-bottom: .8em;
 }
 
+img {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
 /* Anchors */
 a img {
     border: 0;
